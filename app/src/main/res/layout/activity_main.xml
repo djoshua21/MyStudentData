@@ -5,7 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingBottom="10sp"
+    android:background="#98cbf5"
+    >
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,5 +20,178 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:text="My Student Data"
+        android:textSize="35sp"
+        android:textColor="#14345c"
+        android:textStyle="bold"
+        android:paddingBottom="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Student Number:"
+        android:textSize="20sp"
+        android:textColor="#14345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+
+        />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Student Name:"
+        android:textSize="20sp"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+        />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a name..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Student Surname:"
+        android:textSize="20sp"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+        />
+
+    <EditText
+        android:id="@+id/edtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a surname..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Student Phone Number:"
+        android:textSize="20sp"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+        />
+
+    <EditText
+        android:id="@+id/edtCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a phone number..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="top"
+        android:paddingTop="20sp"
+
+        >
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10sp"
+            android:orientation="vertical"
+            android:paddingBottom="10sp"
+            android:layout_weight="1"
+            android:backgroundTint="#4490cf"
+            android:textColor="#cee3f5"
+            />
+
+        <Button
+            android:id="@+id/btnModify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modify"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10sp"
+            android:orientation="vertical"
+            android:paddingBottom="10sp"
+            android:layout_weight="1"
+            android:backgroundTint="#4490cf"
+            android:textColor="#cee3f5"
+
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="10sp"
+            android:orientation="vertical"
+            android:paddingBottom="10sp"
+            android:layout_weight="1"
+            android:backgroundTint="#4490cf"
+            android:textColor="#cee3f5"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>
