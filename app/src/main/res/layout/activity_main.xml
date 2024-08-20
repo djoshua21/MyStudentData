@@ -8,7 +8,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:paddingBottom="10sp"
-    android:background="#2488bb"
+    android:background="#e8e9ea"
     >
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_gravity="left"
         android:text="Student Number:"
         android:textSize="20sp"
-        android:textColor="#00345c"
+        android:textColor="#14345c"
         android:textStyle="bold"
         android:layout_marginHorizontal="10sp"
 
@@ -44,6 +44,10 @@
         android:paddingVertical="10sp"
         android:paddingHorizontal="10sp"
         android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -67,6 +71,10 @@
         android:paddingVertical="10sp"
         android:paddingHorizontal="10sp"
         android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -90,6 +98,10 @@
         android:paddingVertical="10sp"
         android:paddingHorizontal="10sp"
         android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -113,6 +125,10 @@
         android:paddingVertical="10sp"
         android:paddingHorizontal="10sp"
         android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="10sp"
+        android:textStyle="bold"
+        android:textColor="#2babe3"
+        android:textSize="20sp"
         />
 
     <LinearLayout
