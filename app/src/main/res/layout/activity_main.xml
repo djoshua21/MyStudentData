@@ -8,6 +8,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:paddingBottom="10sp"
+    android:background="#2488bb"
     >
 
     <TextView
@@ -16,7 +17,7 @@
         android:layout_gravity="center"
         android:text="My Student Data"
         android:textSize="35sp"
-        android:textColor="@color/black"
+        android:textColor="#14345c"
         android:textStyle="bold"
         android:paddingBottom="20sp"
         />
@@ -27,11 +28,23 @@
         android:layout_gravity="left"
         android:text="Student Number:"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
 
         />
 
-
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,8 +52,21 @@
         android:layout_gravity="left"
         android:text="Student Name:"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+        />
 
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a name..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
         />
 
     <TextView
@@ -49,8 +75,21 @@
         android:layout_gravity="left"
         android:text="Student Surname:"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+        />
 
+    <EditText
+        android:id="@+id/edtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a surname..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
         />
 
     <TextView
@@ -59,8 +98,21 @@
         android:layout_gravity="left"
         android:text="Student Phone Number:"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="#00345c"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10sp"
+        />
 
+    <EditText
+        android:id="@+id/edtCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a phone number..."
+        android:textColorHint="#2babe3"
+        android:background="#1c5482"
+        android:paddingVertical="10sp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="10sp"
         />
 
     <LinearLayout
@@ -69,6 +121,7 @@
         android:orientation="horizontal"
         android:layout_gravity="top"
         android:paddingTop="20sp"
+
         >
 
         <Button
@@ -76,12 +129,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add"
-            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
             android:layout_marginHorizontal="10sp"
             android:orientation="vertical"
             android:paddingBottom="10sp"
             android:layout_weight="1"
-
+            android:backgroundTint="#8c94ac"
+            android:textColor="#405779"
             />
 
         <Button
@@ -89,11 +144,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Modify"
-            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
             android:layout_marginHorizontal="10sp"
             android:orientation="vertical"
             android:paddingBottom="10sp"
             android:layout_weight="1"
+            android:backgroundTint="#8c94ac"
+            android:textColor="#405779"
+
             />
 
         <Button
@@ -101,11 +160,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Delete"
-            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
             android:layout_marginHorizontal="10sp"
             android:orientation="vertical"
             android:paddingBottom="10sp"
             android:layout_weight="1"
+            android:backgroundTint="#8c94ac"
+            android:textColor="#405779"
             />
 
     </LinearLayout>
