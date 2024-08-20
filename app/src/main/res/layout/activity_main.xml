@@ -8,7 +8,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:paddingBottom="10sp"
-    android:background="#e8e9ea"
+    android:background="#98cbf5"
     >
 
     <TextView
@@ -151,8 +151,8 @@
             android:orientation="vertical"
             android:paddingBottom="10sp"
             android:layout_weight="1"
-            android:backgroundTint="#8c94ac"
-            android:textColor="#405779"
+            android:backgroundTint="#4490cf"
+            android:textColor="#cee3f5"
             />
 
         <Button
@@ -166,8 +166,8 @@
             android:orientation="vertical"
             android:paddingBottom="10sp"
             android:layout_weight="1"
-            android:backgroundTint="#8c94ac"
-            android:textColor="#405779"
+            android:backgroundTint="#4490cf"
+            android:textColor="#cee3f5"
 
             />
 
@@ -182,8 +182,8 @@
             android:orientation="vertical"
             android:paddingBottom="10sp"
             android:layout_weight="1"
-            android:backgroundTint="#8c94ac"
-            android:textColor="#405779"
+            android:backgroundTint="#4490cf"
+            android:textColor="#cee3f5"
             />
 
     </LinearLayout>
